@@ -1,0 +1,9 @@
+# Configuration for git attributes
+*.rs linguist-detectable
+dist/* linguist-vendored
+public/**/*.html linguist-vendored
+*.woff binary
+
+src/**/*.rs linguist-detectable
+*.yaml linguist-detectable=false
+*.yml linguist-detectable=false
